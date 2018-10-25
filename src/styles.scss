@@ -1,17 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-/*@import 'variables';
+@import 'src/styles/_variables';
 
 html, body, p {
-	color: $main-text-color
+  color: $main-text-color
 }
 
 #rentalListing {
   .title {
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 20px;
-}*/
+    margin-bottom: 30px;
+}
 
 
   /* SINGLE CARD STYLES*/
@@ -26,7 +26,7 @@ html, body, p {
       .card-subtitle {
         margin: 0;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 10px;
         text-transform: uppercase;
         color: #16861a;
       }
@@ -35,16 +35,17 @@ html, body, p {
 
 
       .card-title {
-        font-size: 19px;
+        font-size: 16px;
         margin: 3px 0;
       }
 
 
       .card-text {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 300;
         color: #7e7e7e;
         margin-bottom: 0;
       }
     }
   }
+}

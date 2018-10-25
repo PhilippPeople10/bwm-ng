@@ -21,10 +21,14 @@
               "src/favicon.ico"
             ],
             "styles": [
-              "src/styles.css",
+              "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "./styles"]
+            }
           },
           "configurations": {
             "production": {
@@ -123,11 +127,11 @@
   "defaultProject": "angular-starter",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "app",
+      "prefix": "bmw",
       "styleext": "css"
     },
     "@schematics/angular:directive": {
-      "prefix": "app"
+      "prefix": "bmw"
     }
   }
 }
